@@ -11,7 +11,7 @@ return (
             <Link href="/career" className="text-gray-600 hover:text-black">Career</Link>
             <Link href="/event" className="text-gray-600 hover:text-black">Event</Link>
             <Link href="/faq" className="text-gray-600 hover:text-black">FAQ</Link>
-            <Link href="/contact" className="text-gray-600 hover:text-black">Contact Us</Link>
+            <Link href="/contactus" className="text-gray-600 hover:text-black">Contact Us</Link>
           </nav>
         </div>
 );

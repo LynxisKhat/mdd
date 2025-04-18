@@ -117,7 +117,7 @@ export default function Home() {
       </div>
 
       {/* Desktop: show slideshow */}
-      <div className=" hidden  aspect-[5/3] gitmd:block w-screen h-screen overflow-hidden relative ">
+      <div className=" hidden  aspect-[5/3] md:block w-screen h-screen overflow-hidden relative ">
         {images.map((img, index) => (
           <Image
             key={img}
