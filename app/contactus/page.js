@@ -1,3 +1,5 @@
+import { Input } from "@/components/ui/input"
+
 export default function ContactUs() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
@@ -20,6 +22,7 @@ export default function ContactUs() {
         </div>
         <button type="submit" className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-200">Send Message</button>
       </form>
+      <Input type="email" placeholder="Email" />
     </div>
   );
 }
