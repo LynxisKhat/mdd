@@ -70,6 +70,10 @@ export default function About() {
 
                 </div>
             </div>
+
+            <div className="flex flex-row my-10 items-center px-3">
+                          
+            </div>
         </div>
     );
 }
