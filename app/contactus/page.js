@@ -3,7 +3,7 @@ export default function ContactUs() {
     <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center justify-center space-y-10">
       
       {/* Title */}
-      <h2 className="text-4xl font-bold text-blue-600 text-center">Contact Us</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
       <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us.</p>
 
       {/* Contact Grid */}
