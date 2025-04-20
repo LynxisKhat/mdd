@@ -1,4 +1,3 @@
-import { style } from "./style.css";
 import Link from "next/link";
 export default function Service() {
   return (
@@ -35,7 +34,7 @@ export default function Service() {
               <path d="M10.37 8.11h-4v-6h4z" />
             </svg>
           </Link>
-          <a class="text-white md:justify-items-center bg-[#065c95] hover:bg-[#0072bc] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-20 py-5.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <Link href="/solutionsandservices" class="text-white md:justify-items-center bg-[#065c95] hover:bg-[#0072bc] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-20 py-5.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             <svg
               class="w-3.5 h-3.5 me-2"
               aria-hidden="true"
@@ -57,7 +56,7 @@ export default function Service() {
               <path d="M2.38 7h12l-6 7-6-7z" />
               <path d="M10.37 8.11h-4v-6h4z" />
             </svg>
-          </a>
+          </Link>
         </div>
         <div class="grid md:grid-cols-2 grid-cols-1 mt-4 md:mt-8">
           <div class="m-4 border p-4 shadow-lg rounded-md bg-[#0072bc]">
